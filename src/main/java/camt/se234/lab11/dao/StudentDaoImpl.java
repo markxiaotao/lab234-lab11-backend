@@ -10,7 +10,9 @@ public class StudentDaoImpl implements StudentDao {
     public StudentDaoImpl(){
         students = new ArrayList<>();
         students.add(new Student("123","A","temp",2.33));
-
+        students.add(new Student("124","B","temp1",2.55));
+        students.add(new Student("125","C","temp2",2.99));
+        students.add(new Student("126","D","temp3",4.00));
     }
 
     @Override
